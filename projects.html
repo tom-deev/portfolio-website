@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Mohit Sanas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mohit<span class="accent">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Contact Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <p class="section-label">Things I've built</p>
+      <h1>My <span class="accent">Projects</span></h1>
+      <p class="page-header-sub">A collection of real-world projects I've built to solve problems and sharpen my skills.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section">
+    <div class="container">
+
+      <!-- Project 1 -->
+      <div class="project-full-card">
+        <div class="project-full-left">
+          <div class="project-full-visual">
+            <div class="project-mockup">
+              <div class="mockup-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="mockup-title">expense_tracker.py</span>
+              </div>
+              <div class="mockup-body">
+                <p><span class="code-green">$</span> python expense_tracker.py</p>
+                <p><span class="code-orange">→</span> Add expense: Coffee ₹80</p>
+                <p><span class="code-orange">→</span> Category: Food & Drink</p>
+                <p><span class="code-green">✓</span> Saved! Total today: ₹320</p>
+                <p class="code-dim">─────────────────────</p>
+                <p><span class="code-orange">Monthly Summary</span></p>
+                <p>Food: ₹2,400 | Travel: ₹850</p>
+                <p>Entertainment: ₹600</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-full-right">
+          <span class="project-number">01</span>
+          <div class="project-tags-row">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">CLI</span>
+            <span class="project-tag">CSV</span>
+          </div>
+          <h2>Expense Tracker</h2>
+          <p>
+            A command-line application built in Python to help users track their daily
+            spending habits. It allows adding expenses with categories, setting monthly
+            budgets, and generating reports to understand where the money is going.
+          </p>
+          <h4>Key Features</h4>
+          <ul class="feature-list">
+            <li>Add, view, and delete expense entries</li>
+            <li>Categorize spending (Food, Travel, Entertainment, etc.)</li>
+            <li>Monthly and weekly budget tracking</li>
+            <li>Persistent data storage using CSV files</li>
+            <li>Summary report with category breakdown</li>
+          </ul>
+          <div class="project-full-actions">
+            <a href="https://github.com/tom-deev/expense-tracker" target="_blank" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-full-card project-full-card--reverse">
+        <div class="project-full-left">
+          <div class="project-full-visual">
+            <div class="project-mockup">
+              <div class="mockup-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="mockup-title">packet_analyzer.py</span>
+              </div>
+              <div class="mockup-body">
+                <p><span class="code-green">$</span> sudo python packet_analyzer.py</p>
+                <p><span class="code-orange">Sniffing on eth0...</span></p>
+                <p class="code-dim">─────────────────────</p>
+                <p><span class="code-green">TCP</span> 192.168.1.5 → 8.8.8.8</p>
+                <p><span class="code-green">UDP</span> 192.168.1.5 → 1.1.1.1</p>
+                <p><span class="code-orange">ICMP</span> Ping from 192.168.1.1</p>
+                <p><span class="code-green">TCP</span> 192.168.1.5 → 142.250.1.1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-full-right">
+          <span class="project-number">02</span>
+          <div class="project-tags-row">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Scapy</span>
+            <span class="project-tag">Networking</span>
+          </div>
+          <h2>Network Packet Analyzer</h2>
+          <p>
+            A low-level network tool built with Python and Scapy to capture and inspect
+            live network packets. Designed to help understand how data travels across a
+            network — protocol by protocol, packet by packet.
+          </p>
+          <h4>Key Features</h4>
+          <ul class="feature-list">
+            <li>Real-time packet capture on selected network interface</li>
+            <li>Supports TCP, UDP, ICMP, and ARP protocols</li>
+            <li>Displays source/destination IP and port info</li>
+            <li>Packet count and protocol distribution summary</li>
+            <li>Filter packets by protocol type</li>
+          </ul>
+          <div class="project-full-actions">
+            <a href="https://github.com/tom-deev/network-packet-analyzer" target="_blank" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Mohit<span class="accent">.</span></p>
+      <p class="footer-copy">© 2025 Mohit Sanas. Built with 💻 and ☕</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
