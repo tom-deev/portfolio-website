@@ -350,7 +350,7 @@ ul { list-style: none; }
   object-fit: cover;
   filter: contrast(1.05) brightness(1.02);
   transition: transform 0.3s ease;
-  transform: rotate(90deg);
+ 
 }
 
 .hero-image-box:hover .hero-img {
